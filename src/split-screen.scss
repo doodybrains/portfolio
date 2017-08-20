@@ -1,0 +1,20 @@
+.split-wrapper {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  border: 12px solid hotpink;
+  display: flex;
+  align-items: stretch;
+
+  .left-container {
+    height: 100%;
+    background: yellow;
+    width: 30%;
+  }
+
+  .right-container {
+    height: 100%;
+    background: blue;
+    width: 70%;
+  }
+}
