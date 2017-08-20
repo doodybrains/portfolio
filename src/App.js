@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './app.css';
+import './App.css';
 import SplitScreen from './split-screen.js';
 
 class App extends Component {
