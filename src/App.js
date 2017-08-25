@@ -1,26 +1,29 @@
-import React, { Component } from 'react';
-import './App.css';
-import SplitScreen from './split-screen.js';
+import React from 'react';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
+import Home from './home';
+import ProjectOne from './project-one';
+import ProjectTwo from './project-two';
+import ProjectThree from './project-three';
+import ProjectFour from './project-four';
+import ProjectFive from './project-five';
+import ProjectSix from './project-six';
+import ProjectSeven from './project-seven';
+import ProjectEight from './project-eight';
+const App = () => (
+  <Router>
+    <div>
+      <Route exact path="/" component={Home} />
+      <Route path="/project-one" component={ProjectOne} />
+      <Route path="/project-two" component={ProjectTwo} />
+      <Route path="/project-three" component={ProjectThree} />
+      <Route path="/project-four" component={ProjectFour} />
+      <Route path="/project-five" component={ProjectFive} />
+      <Route path="/project-six" component={ProjectSix} />
+      <Route path="/project-seven" component={ProjectSeven} />
+      <Route path="/project-eight" component={ProjectEight} />
+    </div>
+  </Router>
+);
 
-class App extends Component {
-  render() {
-    return (
-      <div className="app-wrapper">
-        <div className="home">
-          <SplitScreen
-            title="Portfolio"
-            subTitle="Emma Rae Norton"
-            mainText="10 projects, best viewed in Google Chrome browser on desktop"
-            secondText=""
-            mainImage=""
-            secondImage=""
-            thirdImage=""
-            link=""
-            />
-        </div>
-      </div>
-    );
-  }
-}
 
 export default App;
