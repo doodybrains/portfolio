@@ -5,7 +5,7 @@ import SplitScreen from './split-screen.js';
 class ProjectOne extends Component {
   render() {
     const mainText = (
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non tristique ex, sed mattis tortor. Fusce mi risus, tristique vitae est ut, hendrerit auctor nunc. Mauris sit amet posuere velit, et imperdiet tellus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin et nisl lorem. Vivamus fermentum ex in urna suscipit varius. Fusce arcu quam, interdum vitae egestas id, volutpat id est. Curabitur ultrices ac purus dapibus tristique. In tincidunt nulla eget consectetur tincidunt. Maecenas lorem nisi, elementum sed gravida in, tincidunt eu augue. Nam suscipit eleifend orci volutpat blandit. Nullam massa ante, pellentesque nec orci eget, aliquam dignissim sem. Duis nulla est, commodo sit amet enim vitae, varius dictum ipsum. Etiam in congue magna. Praesent venenatis porttitor fringilla. Pellentesque commodo felis a metus rutrum, quis placerat erat sagittis. Pellentesque ac arcu nec purus laoreet rutrum."
+      "undecided.js is a tool for making web pages. any1 can easily create a personal web page while also participating in a community of sharing without algorithms or advertisements. by typing just 1 word (undecided) and 1 number (the amount of links u want to show) u can create a live web page containing any and every link u can think of. u can link to ur favorite website, a PDF, ur aunts blog, a fake news article, a real news article...anything! the internet is ur oyster. in addition to receiving a url for ur personal page all of ur links will be posted to the undecided homepage where u can scroll through the links posted by other undecided.js users"
     );
 
     const subText = (
@@ -18,14 +18,16 @@ class ProjectOne extends Component {
           <SplitScreen
             next="/project-two"
             last="/"
-            title="Project One"
-            subTitle="subtitle"
+            title="undecided.js"
+            subTitle="(the internet is ur oyster)"
             mainText={mainText}
             subText={subText}
-            mainImage="https://scontent.cdninstagram.com/hphotos-xta1/l/t51.2885-15/e35/12357331_754568181313700_49107211_n.jpg"
-            secondImage="https://scontent.cdninstagram.com/hphotos-xpf1/t51.2885-15/sh0.08/e35/12393681_1660534804215045_1584795024_n.jpg"
-            thirdImage="https://scontent.cdninstagram.com/hphotos-xpt1/t51.2885-15/e35/12394091_1686795284898209_597669179_n.jpg"
-            fourthImage="https://scontent.cdninstagram.com/t51.2885-15/e35/12729485_968609883174596_620080932_n.jpg?ig_cache_key=MTE4MjcxOTY3ODk1MDQxMzcxMw%3D%3D.2.c"
+            mainImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/step-1.png"
+            secondImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/step-2.png"
+            thirdImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/step-3.png"
+            fourthImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/lit-website.png"
+            fifthImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/example-boring-website.png"
+            sixthImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/undecided-home.png"
             link=""
             />
         </div>

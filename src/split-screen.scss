@@ -17,11 +17,19 @@
     padding: 20px 20px 100px 20px;
 
     h1, h2 {
-      margin-bottom: 10px;
+      margin-bottom: 5px;
     }
-
+    h2 {
+      margin-bottom: 20px;
+      font-size: 1em;
+    }
+    h1 {
+      font-size: 1.25em;
+    }
     p {
       margin-bottom: 15px;
+      font-size: .8675em;
+      line-height: 1.45em;
     }
   }
 
@@ -50,7 +58,7 @@
       right: 20px;
       top: 20px;
     }
-    
+
     img.arrow {
       cursor: pointer;
       display: block;

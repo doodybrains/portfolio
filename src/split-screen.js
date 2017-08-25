@@ -36,6 +36,12 @@ class SplitScreen extends Component {
               <img src={this.props.secondImage}/>
               <img src={this.props.thirdImage}/>
               <img src={this.props.fourthImage}/>
+              {this.props.fifthImage &&
+                <img src={this.props.fifthImage}/>
+              }
+              {this.props.sixthImage &&
+                <img src={this.props.sixthImage}/>
+              }
             </div>
           }
         </div>
