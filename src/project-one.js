@@ -9,7 +9,7 @@ class ProjectOne extends Component {
     );
 
     const subText = (
-      "Maecenas fringilla risus nec neque dapibus facilisis. Quisque a sem ac nisl mollis commodo ac vitae nulla. Nullam id eleifend lectus. Duis in mi vehicula, pharetra urna vel, aliquet dolor. Praesent sem velit, viverra non ultrices vitae, commodo et tellus. Pellentesque vel risus mauris. Duis eros velit, aliquam eget quam in, auctor molestie elit. Suspendisse ac odio enim. Sed rutrum lectus et orci auctor ultricies. In aliquam metus at quam sagittis, ac maximus arcu porta. Vivamus faucibus lacus quis mauris tincidunt tristique. Mauris tristique iaculis ante non egestas. Sed at scelerisque magna. Curabitur sagittis arcu et turpis vulputate ultrices. Mauris hendrerit id arcu quis sagittis. Vivamus molestie eros quam, nec vehicula ligula pretium vitae. Maecenas mattis rhoncus erat, in porta tellus tempus quis. Nulla vel felis ut purus venenatis imperdiet a vitae enim. Praesent a eros arcu."
+      "Node.js, NPM, Amazon s3, Heroku, Express"
     );
 
     return (
