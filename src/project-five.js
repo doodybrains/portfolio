@@ -16,16 +16,18 @@ class ProjectFive extends Component {
       <div className="app-wrapper">
         <div className="project">
           <SplitScreen
-            next="/project-one"
+            next="/project-six"
             last="/project-four"
             title="What does the internet look like?"
             subTitle="What do I look like?"
             mainText={mainText}
             subText={subText}
-            mainImage="https://scontent.cdninstagram.com/t51.2885-15/e35/12729485_968609883174596_620080932_n.jpg?ig_cache_key=MTE4MjcxOTY3ODk1MDQxMzcxMw%3D%3D.2.c"
-            secondImage="https://scontent.cdninstagram.com/hphotos-xta1/l/t51.2885-15/e35/12357331_754568181313700_49107211_n.jpg"
-            thirdImage="https://scontent.cdninstagram.com/hphotos-xpt1/t51.2885-15/e35/12394091_1686795284898209_597669179_n.jpg"
-            fourthImage="https://scontent.cdninstagram.com/hphotos-xpf1/t51.2885-15/sh0.08/e35/12393681_1660534804215045_1584795024_n.jpg"
+            mainImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/internet-light/1-what.jpg"
+            secondImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/internet-light/2-is.jpg"
+            thirdImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/internet-light/3-love.jpg"
+            fourthImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/internet-light/4-where.jpg"
+            fifthImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/internet-light/5-is.jpg"
+            sixthImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/internet-light/6-chuck-norris.jpg"
             link=""
             />
         </div>
