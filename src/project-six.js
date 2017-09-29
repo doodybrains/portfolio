@@ -16,7 +16,7 @@ class ProjectSix extends Component {
       <div className="app-wrapper">
         <div className="project">
           <SplitScreen
-            next="/project-one"
+            next="/project-seven"
             last="/project-five"
             title="Missing monuments"
             subTitle="subtitle"

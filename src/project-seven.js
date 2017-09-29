@@ -16,9 +16,9 @@ class ProjectSeven extends Component {
       <div className="app-wrapper">
         <div className="project">
           <SplitScreen
-            next="/project-eight"
+            next="/project-one"
             last="/project-six"
-            title="Project Seven"
+            title="Dash x Dice x Sonos"
             subTitle="subtitle"
             mainText={mainText}
             subText={subText}
