@@ -9,6 +9,7 @@ import ProjectFive from './project-five';
 import ProjectSix from './project-six';
 import ProjectSeven from './project-seven';
 import ProjectEight from './project-eight';
+
 const App = () => (
   <Router>
     <div>
@@ -19,6 +20,7 @@ const App = () => (
       <Route path="/project-four" component={ProjectFour} />
       <Route path="/project-five" component={ProjectFive} />
       <Route path="/project-six" component={ProjectSix} />
+      <Route path="/project-seven" component={ProjectSeven} />
     </div>
   </Router>
 );
