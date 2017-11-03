@@ -24,6 +24,8 @@ class ProjectThree extends Component {
             subText={subText}
             mainImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/knowthyself-1.png"
             secondImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/knowthyself-2.png"
+            thirdImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/know-2.png"
+            fourthImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/know-1.png"
             link=""
             />
         </div>
