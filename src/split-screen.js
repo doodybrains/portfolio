@@ -9,8 +9,8 @@ class SplitScreen extends Component {
         <div className="left-container">
           <h1>{this.props.title}</h1>
           <h2>{this.props.subTitle}</h2>
-          <p>{this.props.mainText}</p>
-          <p>Tools: {this.props.subText}</p>
+          <p className="main-text">{this.props.mainText}</p>
+          <p className="tools"><span>Tools:</span> {this.props.subText}</p>
         </div>
 
         <div className="right-container">

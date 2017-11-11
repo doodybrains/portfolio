@@ -9,7 +9,7 @@ class ProjectSix extends Component {
     );
 
     const subText = (
-      "..."
+      "Photoshop"
     );
 
     return (
@@ -19,7 +19,7 @@ class ProjectSix extends Component {
             next="/project-seven"
             last="/project-five"
             title="Missing monuments"
-            subTitle="subtitle"
+            subTitle="Found Image Series"
             mainText={mainText}
             subText={subText}
             mainImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/missing/1-newyork.jpg"

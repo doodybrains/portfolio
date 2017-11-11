@@ -5,7 +5,7 @@ import SplitScreen from './split-screen.js';
 class ProjectFour extends Component {
   render() {
     const mainText = (
-      "Videos of constructions sites in NYC collected between 2016 and the present. Videos are randomized as is the overlaying text which is pulled from my own research into the physicality of the internet. What does the internet look like? What structures are necessary for it to work? How much energy, time, and space does the internet require? Construction in NYC seems to be endless, highly visible, yet vapid. Construction of the internet seems to be infinite, invisible, yet extremeley pervasive. Sound is an original track mixed by "
+      "Videos of constructions sites in NYC collected since 2016. Videos are randomized as is the overlaying texts which are pulled from my research into the physicality of the internet. What does the internet look like? What structures are necessary for it to work? How much energy, time, and space does the internet require? Construction in NYC is highly visible and seemingly endless. Construction of the internet seems to be infinite, invisible, yet extremeley pervasive."
     );
 
     const subText = (
@@ -19,15 +19,18 @@ class ProjectFour extends Component {
             next="/project-five"
             last="/project-three"
             title="Construction Site"
-            subTitle=""
+            subTitle="single page website"
             mainText={mainText}
             subText={subText}
-            mainImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/construction-1.png"
-            secondImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/construction-2.png"
-            thirdImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/construction-3.png"
-            fourthImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/construction-4.png"
-            fifthImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/construction-5.png"
-            sixthImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/construction-6.png"
+            mainImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/cons-1.jpg"
+            secondImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/cons-2.jpg"
+            thirdImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/cons-3.jpg"
+            fourthImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/cons-4.jpg"
+            fifthImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/cons-11.jpg"
+            sixthImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/cons-6.jpg"
+            seventhImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/cons-7.jpg"
+            eigthImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/cons-8.jpg"
+            ninthImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/cons-9.jpg"
             link=""
             />
         </div>

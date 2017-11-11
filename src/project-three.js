@@ -5,7 +5,7 @@ import SplitScreen from './split-screen.js';
 class ProjectThree extends Component {
   render() {
     const mainText = (
-      "An experimental website in which visitors can draw portraits of themselves. There is no options to save or erase, forcing the user to stay focused on the present, to look at themselves."
+      "An experimental website where visitors can draw portraits of themselves. There is no option to save or erase, forcing the user to stay focused on the present, to look at themselves!"
     );
 
     const subText = (
@@ -19,13 +19,11 @@ class ProjectThree extends Component {
             next="/project-four"
             last="/project-two"
             title="Know Thyself"
-            subTitle=""
+            subTitle="Single page website"
             mainText={mainText}
             subText={subText}
-            mainImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/knowthyself-1.png"
-            secondImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/knowthyself-2.png"
-            thirdImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/know-2.png"
-            fourthImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/know-1.png"
+            mainImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/know-2.png"
+            secondImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/know-1.png"
             link=""
             />
         </div>

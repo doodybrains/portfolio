@@ -5,7 +5,7 @@ import SplitScreen from './split-screen.js';
 class ProjectOne extends Component {
   render() {
     const mainText = (
-      "undecided.js is a tool for making web pages. any1 can easily create a personal web page while also participating in a community of sharing without algorithms or advertisements. by typing just 1 word (undecided) and 1 number (the amount of links u want to show) u can create a live web page containing any and every link u can think of. u can link to ur favorite website, a PDF, ur aunts blog, a fake news article, a real news article...anything! the internet is ur oyster. in addition to receiving a url for ur personal page all of ur links will be posted to the undecided homepage where u can scroll through the links posted by other undecided.js users"
+      "undecided.js is a command line tool for building single page websites. Built on top of Node.js the program can be installed through NPM. Each user's website, along with the links included, is automatically uploaded to the undecided.js website. The intention behind the tool is to bring common web development tools accessible to a non-programmer while also proving a an alternative platform for sharing information without the interference of algorithms or advertisements."
     );
 
     const subText = (
@@ -18,16 +18,19 @@ class ProjectOne extends Component {
           <SplitScreen
             next="/project-two"
             last="/"
-            title="undecided.js"
-            subTitle="(the internet is ur oyster)"
+            title="undecided.js / the internet is ur oyster"
+            subTitle="command line tool"
             mainText={mainText}
             subText={subText}
-            mainImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/step-1.png"
-            secondImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/step-2.png"
-            thirdImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/step-3.png"
-            fourthImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/lit-website.png"
-            fifthImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/example-boring-website.png"
-            sixthImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/undecided-home.png"
+            mainImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/un-1.jpg"
+            secondImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/un-2.jpg"
+            thirdImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/un-3.jpg"
+            fourthImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/un-4.jpg"
+            fifthImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/un-5.jpg"
+            sixthImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/un-6.jpg"
+            seventhImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/un-7.jpg"
+            eigthImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/un-8.jpg"
+            ninthImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/un-9.jpg"
             link=""
             />
         </div>
