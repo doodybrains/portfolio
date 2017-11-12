@@ -1,7 +1,18 @@
 import React, { Component } from 'react';
 import './App.css';
 import SplitScreen from './split-screen.js';
-
+const images = [
+  "https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/un-1.jpg",
+  "https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/un-2.jpg",
+  "https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/un-3.jpg",
+  "https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/un-4.jpg",
+  "https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/un-5.jpg",
+  "https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/un-6.jpg",
+  "https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/un-7.jpg",
+  "https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/un-8.jpg",
+  "https://s3-us-west-1.amazonaws.com/marceldochamp.net/example-boring-website.png",
+  "https://s3-us-west-1.amazonaws.com/marceldochamp.net/lit-website.png"
+];
 class ProjectOne extends Component {
   render() {
     const mainText = (
@@ -16,22 +27,15 @@ class ProjectOne extends Component {
       <div className="app-wrapper">
         <div className="project">
           <SplitScreen
+            id="1"
             next="/project-two"
             last="/"
             title="undecided.js / the internet is ur oyster"
             subTitle="command line tool"
             mainText={mainText}
             subText={subText}
-            mainImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/un-1.jpg"
-            secondImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/un-2.jpg"
-            thirdImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/un-3.jpg"
-            fourthImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/un-4.jpg"
-            fifthImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/un-5.jpg"
-            sixthImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/un-6.jpg"
-            seventhImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/un-7.jpg"
-            eigthImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/un-8.jpg"
-            ninthImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/un-9.jpg"
-            link=""
+            images={images}
+            link="https://desolate-scrubland-97851.herokuapp.com/"
             />
         </div>
       </div>

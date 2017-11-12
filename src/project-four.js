@@ -1,7 +1,17 @@
 import React, { Component } from 'react';
 import './App.css';
 import SplitScreen from './split-screen.js';
-
+const images = [
+"https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/cons-1.jpg",
+"https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/cons-2.jpg",
+"https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/cons-3.jpg",
+"https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/cons-4.jpg",
+"https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/cons-11.jpg",
+"https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/cons-6.jpg",
+"https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/cons-7.jpg",
+"https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/cons-8.jpg",
+"https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/cons-9.jpg"
+];
 class ProjectFour extends Component {
   render() {
     const mainText = (
@@ -16,22 +26,15 @@ class ProjectFour extends Component {
       <div className="app-wrapper">
         <div className="project">
           <SplitScreen
+            id="4"
             next="/project-five"
             last="/project-three"
             title="Construction Site"
             subTitle="single page website"
             mainText={mainText}
             subText={subText}
-            mainImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/cons-1.jpg"
-            secondImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/cons-2.jpg"
-            thirdImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/cons-3.jpg"
-            fourthImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/cons-4.jpg"
-            fifthImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/cons-11.jpg"
-            sixthImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/cons-6.jpg"
-            seventhImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/cons-7.jpg"
-            eigthImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/cons-8.jpg"
-            ninthImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/cons-9.jpg"
-            link=""
+            images={images}
+            link="https://goldsmith-ingrid-64253.netlify.com/"
             />
         </div>
       </div>

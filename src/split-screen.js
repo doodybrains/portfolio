@@ -14,9 +14,30 @@ class SplitScreen extends Component {
         </div>
 
         <div className="right-container">
+          {
+            !this.props.homeComponent &&
+
+            <div className="project-link">
+              {this.props.link &&
+                <span>
+                  <a target="_blank" href={this.props.link}>Link to Project Homepage</a>
+                  <p>{this.props.id} of 7</p>
+                </span>
+              }
+
+              {!this.props.link &&
+                <p className="counter-only">{this.props.id} of 8</p>
+              }
+
+            </div>
+          }
+
           {this.props.homeComponent &&
             <Link className="start" to={this.props.next}>
-              <img className="arrow" src="https://icon.now.sh/chevronRight"/>
+              <div className="wrapper">
+                <img className="arrow" src="https://icon.now.sh/chevronRight"/>
+                <p className="start">start</p>
+              </div>
             </Link>
           }
 
@@ -32,23 +53,11 @@ class SplitScreen extends Component {
                 </Link>
               }
 
-              <img src={this.props.mainImage}/>
-              <img src={this.props.secondImage}/>
-              <img src={this.props.thirdImage}/>
-              <img src={this.props.fourthImage}/>
-              {this.props.fifthImage &&
-                <img src={this.props.fifthImage}/>
-              }
-              {this.props.sixthImage &&
-                <img src={this.props.sixthImage}/>
-              }
-              {this.props.seventhImage &&
-                <span>
-                  <img src={this.props.seventhImage}/>
-                  <img src={this.props.eighthImage}/>
-                  <img src={this.props.ninthImage}/>
-                </span>
-              }
+            {this.props.images.map(img => {
+              return (
+                <img src={img} />
+              );
+            })}
             </div>
           }
         </div>

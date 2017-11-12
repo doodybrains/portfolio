@@ -1,6 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
 import SplitScreen from './split-screen.js';
+const images = [
+  "https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/mix-1.jpg",
+  "https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/mix-2.jpg",
+  "https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/mix-3.jpg",
+  "https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/mix-4.jpg",
+  "https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/mix-5.jpg",
+  "https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/mix-6.jpg"
+];
 
 class ProjectSeven extends Component {
   render() {
@@ -16,19 +24,15 @@ class ProjectSeven extends Component {
       <div className="app-wrapper">
         <div className="project">
           <SplitScreen
+            id="7"
             next="/project-one"
             last="/project-six"
             title="Mixtape + Are.na API"
             subTitle="subtitle"
             mainText={mainText}
             subText={subText}
-            mainImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/mix-1.jpg"
-            secondImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/mix-2.jpg"
-            thirdImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/mix-3.jpg"
-            fourthImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/mix-4.jpg"
-            fifthImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/mix-5.jpg"
-            sixthImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/mix-6.jpg"
-            link=""
+            images={images}
+            link="https://mixxxtape.herokuapp.com/#/"
             />
         </div>
       </div>

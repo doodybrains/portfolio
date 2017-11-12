@@ -8,7 +8,6 @@ import ProjectFour from './project-four';
 import ProjectFive from './project-five';
 import ProjectSix from './project-six';
 import ProjectSeven from './project-seven';
-import ProjectEight from './project-eight';
 
 const App = () => (
   <Router>

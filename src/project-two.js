@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
 import SplitScreen from './split-screen.js';
+const images = [
+  "https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/www-1.jpg",
+  "https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/www-2.jpg",
+  "https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/www-3.jpg"
+];
 
 class ProjectTwo extends Component {
   render() {
@@ -16,16 +21,15 @@ class ProjectTwo extends Component {
       <div className="app-wrapper">
         <div className="project">
           <SplitScreen
+            id="2"
             next="/project-three"
             last="/project-one"
             title="Website with the Sound of Its Own Making"
             subTitle="Single page website"
             mainText={mainText}
             subText={subText}
-            mainImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/www-1.jpg"
-            secondImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/www-2.jpg"
-            thirdImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/www-3.jpg"
-            link=""
+            images={images}
+            link="https://doodybrains.github.io/wwtsoiom/"
             />
         </div>
       </div>

@@ -13,12 +13,8 @@ class Home extends Component {
             last=""
             title="Portfolio"
             subTitle="Emma Rae Norton"
-            mainText="10 projects"
-            subText="Best viewed in Google Chrome browser on desktop"
-            mainImage=""
-            secondImage=""
-            thirdImage=""
-            link=""
+            mainText="7 projects"
+            subText="This website and all links are should be viewed with the Google Chrome browser on a laptop or desktop computer."
             />
         </div>
       </div>

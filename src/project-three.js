@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
 import SplitScreen from './split-screen.js';
-
+const images = [
+  "https://s3-us-west-1.amazonaws.com/marceldochamp.net/know-2.png",
+  "https://s3-us-west-1.amazonaws.com/marceldochamp.net/know-1.png"
+];
 class ProjectThree extends Component {
   render() {
     const mainText = (
@@ -16,15 +19,15 @@ class ProjectThree extends Component {
       <div className="app-wrapper">
         <div className="project">
           <SplitScreen
+            id="3"
             next="/project-four"
             last="/project-two"
             title="Know Thyself"
             subTitle="Single page website"
             mainText={mainText}
             subText={subText}
-            mainImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/know-2.png"
-            secondImage="https://s3-us-west-1.amazonaws.com/marceldochamp.net/know-1.png"
-            link=""
+            images={images}
+            link="https://sleepy-everglades-99417.herokuapp.com/"
             />
         </div>
       </div>

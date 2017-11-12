@@ -51,9 +51,38 @@
     background: snow;
     width: 70%;
 
+    .project-link {
+      margin: 0 auto;
+      padding: 10px;
+      text-align: center;
+
+      a {
+        display: inline-block;
+        border-bottom: 2px solid black;
+        text-decoration: none;
+        color: inherit;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+
+      p.counter-only {
+        padding-top: 28px;
+      }
+    }
+
     a.start {
+      color: inherit;
       display: block;
-      width: 60%;
+      width: 100%;
+      img {
+        width: 40%;
+      }
+      p {
+        font-size: 2em;
+        text-decoration: none;
+        color: inherit;
+      }
     }
 
     a.back {
@@ -61,7 +90,7 @@
       width: 20px;
       position: absolute;
       left: calc(30% + 20px);
-      top: 20px;
+      top: 28px;
     }
 
     a.next {
@@ -69,7 +98,7 @@
       width: 20px;
       position: absolute;
       right: 20px;
-      top: 20px;
+      top: 28px;
     }
 
     img.arrow {
