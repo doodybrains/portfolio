@@ -26,7 +26,7 @@ class SplitScreen extends Component {
               }
 
               {!this.props.link &&
-                <p className="counter-only">{this.props.id} of 8</p>
+                <p className="counter-only">{this.props.id} of 7</p>
               }
 
             </div>
