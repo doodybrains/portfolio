@@ -13,11 +13,11 @@ const images = [
 class ProjectFive extends Component {
   render() {
     const mainText = (
-      "A series of photographs of one person’s skin taken while they browsed the resulting websites listed under the most popular Google searches at the time. The pictures were taken with the intention of finding patterns through the color of light in order to signify some sort of deeper understanding into the physicality of what many internet users were looking at."
+      "Photographs of one person’s skin while they browsed the resulting websites of the most popular Google searches in the year 2010. The color of light coming from these sites is meant to signify a deeper understanding into the physicality of what many internet users were looking at. Each image correlates to a different site from each search (see titles below images)."
     );
 
     const subText = (
-      "Digital Camera"
+      "Digital Camera, Laptop computer"
     );
 
     return (

@@ -12,10 +12,11 @@ const images = [
 "https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/cons-8.jpg",
 "https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/cons-9.jpg"
 ];
+
 class ProjectFour extends Component {
   render() {
     const mainText = (
-      "Videos of constructions sites in NYC collected since 2016. Videos are randomized as is the overlaying texts which are pulled from my research into the physicality of the internet. What does the internet look like? What structures are necessary for it to work? How much energy, time, and space does the internet require? Construction in NYC is highly visible and seemingly endless. Construction of the internet seems to be infinite, invisible, yet extremeley pervasive."
+      "This website displays a collection videos taken of constructions sites in NYC. Most of the videos were taken between 2015 and the present. The overlaying texts, pulled from my research into the physicality of the internet, are displayed at random. What does the internet look like? What structures are necessary for it to work? How much energy, time, and space does the internet require? Construction in NYC is highly visible and seemingly endless. Construction of the internet is infinite, pervasive, yet seemingly invisible."
     );
 
     const subText = (

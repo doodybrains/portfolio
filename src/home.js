@@ -13,8 +13,8 @@ class Home extends Component {
             last=""
             title="Portfolio"
             subTitle="Emma Rae Norton"
-            mainText="7 projects"
-            subText="This website and all links are should be viewed with the Google Chrome browser on a laptop or desktop computer."
+            mainText="This portfolio consists of 7 projects. Click the arrow on the right to go to the first project. From the first project you can use the left and right arrows on the top of the page to cycle through each project. While all pieces in the portfolio include reference images I have also provided links for projects that have their own websites."
+            subText="This portfolio website and all external links should be viewed with the Google Chrome browser on a laptop or a desktop computer."
             />
         </div>
       </div>

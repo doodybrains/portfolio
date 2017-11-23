@@ -9,14 +9,14 @@ const images = [
   "https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/un-5.jpg",
   "https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/un-6.jpg",
   "https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/un-7.jpg",
-  "https://s3-us-west-1.amazonaws.com/marceldochamp.net/final/un-8.jpg",
   "https://s3-us-west-1.amazonaws.com/marceldochamp.net/example-boring-website.png",
   "https://s3-us-west-1.amazonaws.com/marceldochamp.net/lit-website.png"
 ];
+
 class ProjectOne extends Component {
   render() {
     const mainText = (
-      "undecided.js is a command line tool for building single page websites. Built on top of Node.js the program can be installed through NPM. Each user's website, along with the links included, is automatically uploaded to the undecided.js website. The intention behind the tool is to bring common web development tools accessible to a non-programmer while also proving a an alternative platform for sharing information without the interference of algorithms or advertisements."
+      "undecided.js is a command line tool for building single page websites. Built on top of Node.js the program can be installed through NPM. Each user's website, along with the links included, is automatically uploaded to theinernetisuroyster.net. The intention behind the tool is to make common web development tools accessible to a non-programmer while also proving an alternative platform for sharing information without the interference of algorithms or advertisements."
     );
 
     const subText = (

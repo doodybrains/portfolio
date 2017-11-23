@@ -16,7 +16,7 @@ const images = [
 class ProjectSix extends Component {
   render() {
     const mainText = (
-      "A series of found images from famous destinations around the world. Using photoshops select/replace tool each attraction was removed from the picture."
+      "What happens when digital information is removed an image? Does the image define the place or does the place define the image? Missing Monuments is a series of found images from famous destinations around the world. Using photoshop's select and replace tool each attraction was removed from the picture. "
     );
 
     const subText = (

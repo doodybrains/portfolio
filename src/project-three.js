@@ -5,10 +5,11 @@ const images = [
   "https://s3-us-west-1.amazonaws.com/marceldochamp.net/know-2.png",
   "https://s3-us-west-1.amazonaws.com/marceldochamp.net/know-1.png"
 ];
+
 class ProjectThree extends Component {
   render() {
     const mainText = (
-      "An experimental website where visitors can draw portraits of themselves. There is no option to save or erase, forcing the user to stay focused on the present, to look at themselves!"
+      "An experimental website where visitors can draw portraits of themselves. There is no option to save or erase, forcing the user to stay focused on the present, to take time in looking at themselves!"
     );
 
     const subText = (
