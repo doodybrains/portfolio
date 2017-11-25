@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './split-screen.css';
 import {Link} from 'react-router-dom';
+import left from './chevronLeft.svg';
+import right from './chevronRight.svg';
 
 class SplitScreen extends Component {
   render() {
@@ -35,7 +37,7 @@ class SplitScreen extends Component {
           {this.props.homeComponent &&
             <Link className="start" to={this.props.next}>
               <div className="wrapper">
-                <img className="arrow" src="https://icon.now.sh/chevronRight"/>
+                <img alt="next" className="arrow" src={right}/>
                 <p className="start">start</p>
               </div>
             </Link>
@@ -44,18 +46,18 @@ class SplitScreen extends Component {
           {!this.props.homeComponent &&
             <div className="wrapper">
               <Link className="back" to={this.props.last}>
-                <img className="arrow" src="https://icon.now.sh/chevronLeft"/>
+                <img alt="previous" className="arrow" src={left}/>
               </Link>
 
               {this.props.next &&
                 <Link className="next" to={this.props.next}>
-                  <img className="arrow" src="https://icon.now.sh/chevronRight"/>
+                  <img alt="next" className="arrow" src={right}/>
                 </Link>
               }
 
             {this.props.images.map(img => {
               return (
-                <img src={img} />
+                <img alt="project" src={img} />
               );
             })}
             </div>
