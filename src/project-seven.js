@@ -31,6 +31,7 @@ class ProjectSeven extends Component {
             subText={subText}
             images={images}
             link="https://mixxxtape.herokuapp.com/#/"
+            github="https://github.com/doodybrains/mixxxtape"
             />
         </div>
       </div>

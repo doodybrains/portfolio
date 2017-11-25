@@ -9,9 +9,17 @@ class SplitScreen extends Component {
     return (
       <div className="split-wrapper">
         <div className="left-container">
+          <p className="numbered">Project {this.props.id} of 7</p>
           <h1>{this.props.title}</h1>
           <h2>{this.props.subTitle}</h2>
           <p className="main-text">{this.props.mainText}</p>
+          {this.props.link &&
+            <span className="links">
+
+              <p><a target="_blank" href={this.props.link}>Go to project homepage</a></p>
+            <p><a target="_blank" href={this.props.github}>Go to project code</a></p>
+            </span>
+          }
           <p className="tools"><span>Tools:</span> {this.props.subText}</p>
         </div>
 
@@ -22,7 +30,6 @@ class SplitScreen extends Component {
             <div className="project-link">
               {this.props.link &&
                 <span>
-                  <a target="_blank" href={this.props.link}>Link to Project Homepage</a>
                   <p>{this.props.id} of 7</p>
                 </span>
               }

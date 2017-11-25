@@ -31,18 +31,39 @@
       font-weight: bold;
     }
     p.main-text {
-      margin-bottom: 15px;
+      margin-bottom: 5px;
       font-size: .9375em;
       line-height: 1.6em;
     }
+    p.numbered { font-size: .675em;}
     p.tools {
       color: #505050;
       margin-bottom: 15px;
+      margin-top: 10px;
       font-size: .75em;
       line-height: 1.6em;
 
       span {
         font-weight: bold;
+      }
+    }
+    .links {
+      p {
+        display: block;
+        text-decoration: none;
+        color: inherit;
+        font-weight: bold;
+        width: auto;
+        padding: 15px 0;
+
+        a {
+          border-bottom: 1px solid black;
+          display: inline-block;
+          text-decoration: none;
+          color: inherit;
+          padding-bottom: 6px;
+          line-height: 0;
+        }
       }
     }
   }
@@ -57,18 +78,9 @@
       padding: 10px;
       text-align: center;
 
-      a {
-        display: inline-block;
-        border-bottom: 2px solid black;
-        text-decoration: none;
-        color: inherit;
-        text-transform: uppercase;
-        margin-bottom: 10px;
-        font-weight: bold;
-      }
-
-      p.counter-only {
+      p {
         padding-top: 15px;
+        font-weight: bold;
       }
     }
 

@@ -29,6 +29,7 @@ class ProjectThree extends Component {
             subText={subText}
             images={images}
             link="https://sleepy-everglades-99417.herokuapp.com/"
+            github="https://github.com/doodybrains/knowthyself"
             />
         </div>
       </div>

@@ -30,6 +30,7 @@ class ProjectTwo extends Component {
             subText={subText}
             images={images}
             link="https://doodybrains.github.io/wwtsoiom/"
+            github="https://github.com/doodybrains/wwtsoiom"
             />
         </div>
       </div>

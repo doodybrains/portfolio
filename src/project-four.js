@@ -36,6 +36,7 @@ class ProjectFour extends Component {
             subText={subText}
             images={images}
             link="https://goldsmith-ingrid-64253.netlify.com/"
+            github="https://github.com/doodybrains/construction-site"
             />
         </div>
       </div>

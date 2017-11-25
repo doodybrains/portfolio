@@ -36,6 +36,7 @@ class ProjectOne extends Component {
             subText={subText}
             images={images}
             link="https://desolate-scrubland-97851.herokuapp.com/"
+            github="https://github.com/doodybrains/undecided"
             />
         </div>
       </div>
