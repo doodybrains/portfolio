@@ -16,7 +16,7 @@ const images = [
 class ProjectFour extends Component {
   render() {
     const mainText = (
-      "This website displays a collection videos taken of constructions sites in NYC. Most of the videos were taken between 2015 and the present. The overlaying texts, pulled from my research into the physicality of the internet, are displayed at random. What does the internet look like? What structures are necessary for it to work? How much energy, time, and space does the internet require? Construction in NYC is highly visible and seemingly endless. Construction of the internet is infinite, pervasive, yet seemingly invisible."
+      "This website displays a collection videos taken of constructions sites in NYC. Most of the videos were taken between 2015 and the present. The overlaying texts, pulled from my research into the physicality of the Internet, are displayed at random. What does the Internet look like? What structures are necessary for it to work? How much energy, time, and space does the Internet require? Construction in NYC is highly visible and seemingly endless. Construction of the Internet is infinite, pervasive, yet seemingly invisible."
     );
 
     const subText = (

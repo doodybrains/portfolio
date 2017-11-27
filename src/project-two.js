@@ -10,7 +10,7 @@ const images = [
 class ProjectTwo extends Component {
   render() {
     const mainText = (
-      "Inpsired by Robert Morris's 1961 piece titled Box with the Sound of Its Own Making. While Morris's piece is three and a half hours, the amount of time it took him to build a wooden box, this piece is only 1 minute and 54 seconds, the amount of time it took me to build a web page."
+      "Inpsired by Robert Morris' 1961 piece titled Box with the Sound of Its Own Making. While Morris's piece is three and a half hours, the amount of time it took him to build a wooden box, this piece is only 1 minute and 54 seconds, the amount of time it took me to build a web page."
     );
 
     const subText = (
