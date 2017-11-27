@@ -19,22 +19,27 @@
     h1, h2 {
       margin-bottom: 8px;
     }
+
     h2 {
       margin-bottom: 20px;
       font-size: .75em;
       text-transform: uppercase;
     }
+
     h1 {
       font-size: 1.25em;
       margin-bottom: 12px;
       line-height: 1.25em;
       font-weight: bold;
+      text-transform: lowercase;
     }
+
     p.main-text {
       margin-bottom: 5px;
       font-size: .9375em;
       line-height: 1.6em;
     }
+
     p.numbered { font-size: .675em;}
     p.tools {
       color: #505050;
@@ -47,6 +52,7 @@
         font-weight: bold;
       }
     }
+
     .links {
       display: block;
       padding: 15px 0;
