@@ -48,13 +48,16 @@
       }
     }
     .links {
+      display: block;
+      padding: 15px 0;
       p {
         display: block;
         text-decoration: none;
         color: inherit;
         font-weight: bold;
         width: auto;
-        padding: 15px 0;
+        padding: 5px 0 5px 0;
+        font-size: .75em;
 
         a {
           border-bottom: 1px solid black;
