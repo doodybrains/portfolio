@@ -11,7 +11,7 @@ const images = [
 class ProjectSeven extends Component {
   render() {
     const mainText = (
-      "Mixtape is an app for sharing music and is built with React and the are.na API. Using are.na as a back-end users can upload mp3s from around the world wide web to make mixes of songs that might not be available on larger streaming services. The name of the are.na channel can be added to the end of the app's url so that the songs from the channel can get dynamically loaded into page."
+      "Mixtape is an app for sharing music and is built with React and the are.na API. Using are.na as a back-end users can upload mp3s from around the world wide web to make mixes of songs that might not be available on larger streaming services. The name of the are.na channel can be added to the end of the app's url so that the songs from the channel can get dynamically loaded into the page."
     );
 
     const subText = (

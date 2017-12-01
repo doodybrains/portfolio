@@ -9,7 +9,7 @@ const images = [
 class ProjectThree extends Component {
   render() {
     const mainText = (
-      "An experimental website where visitors can draw portraits of themselves. There is no option to save or erase, forcing the user to stay focused on the present, to take time in looking at themselves!"
+      "An experimental website where visitors can draw portraits of themselves. There is no option to save or erase, forcing the user to stay focused on the present, to take time in looking at oneself!"
     );
 
     const subText = (
